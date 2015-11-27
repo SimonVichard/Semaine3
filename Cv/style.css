@@ -16,10 +16,21 @@ header div div{
     display:inline-block;
 }
 header div div:first-child{
-    float:left;
+    color:#0000FF;
 }
 header div div:nth-child(2){
     float:right;
+    color:#0000FF;
+    font-style:italic;
+    text-decoration:underline;
+    font-weight:bold;
+    font-size:14px;
+    padding-right:10px;
+}
+header div div:last-child{
+    text-align:left;
+    text-decoration:underline;
+    margin-right:20px;
 }
 header div p:nth-child(2){
     font-size:12px;
@@ -53,6 +64,13 @@ footer div p:nth-child(2){
 }
 h2{
     text-align:center;
+    background-color:#2E64FE;
+    margin-left:60px;
+    margin-right:60px;
+    border-radius:20px;
+}
+ul{
+    list-style-type:square;
 }
 #presentl{
     text-align:left;
@@ -60,4 +78,5 @@ h2{
 #presentr{
     text-align:right;
 }
+
 
