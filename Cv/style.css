@@ -1,10 +1,12 @@
-body{
+body {
     background-color:#0040FF;
 }
-h1{
+
+h1 {
     font-size:22px;   
 }
-header{
+
+header {
     border-radius:20px;
     padding-left:15px;
     position:relative;
@@ -12,13 +14,16 @@ header{
     font-size:20px;
     background-color:#A9D0F5;
 }
-header div div{
+
+header div div {
     display:inline-block;
 }
-header div div:first-child{
+
+header div div:first-child {
     color:#0000FF;
 }
-header div div:nth-child(2){
+
+header div div:nth-child(2) {
     float:right;
     color:#0000FF;
     font-style:italic;
@@ -27,30 +32,35 @@ header div div:nth-child(2){
     font-size:14px;
     padding-right:10px;
 }
-header div div:last-child{
+
+header div div:last-child {
     text-align:left;
     text-decoration:underline;
     margin-right:20px;
 }
-header div p:nth-child(2){
+
+header div p:nth-child(2) {
     font-size:12px;
     text-decoration:none;
     text-align:right;
     text-decoration:underline;
     font-weight:bold;
 }
-header div p:nth-child(3){
+
+header div p:nth-child(3) {
     font-style:italic;
     font-size:16px;
     text-decoration:underline;
 }
-main{
+
+main {
     background-color:#81BEF7;
     border-radius:20px;
     padding-bottom:1px;
     padding-top:1px;
 }
-footer{
+
+footer {
     background-color:#58ACFA;
     font-weight:bold;
     text-align:center;
@@ -59,22 +69,37 @@ footer{
     padding-bottom:1px;
     padding-top:1px;
 }
-footer div p:nth-child(2){
-    color:;
-}
-h2{
+
+h2 {
     text-align:center;
     background-color:#2E64FE;
     margin-left:60px;
     margin-right:60px;
     border-radius:20px;
 }
-ul{
+
+ul {
     list-style-type:square;
+}
+
+a:link {
+    text-decoration:none;
+    color:#0101DF;
+}
+
+a:visited {
+    color:red;
+}
+
+a:hover {
+    color:#7401DF;
+}
+
 }
 #presentl{
     text-align:left;
 }
+
 #presentr{
     text-align:right;
 }
